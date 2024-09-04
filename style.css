@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828;
+    padding: 20px;
+    font-size: 50%;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #06BBCC;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282828;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    bottom:5px;
+}
+a {
+    color: #06BBCC;
+    text-decoration: none
+}
+/* සාමාන්‍යම වර්ණ සහ අකුරු සැකසුම */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Video කොටස */
+.video-section {
+    display: flex;
+    justify-content: center; /* video එක horizontal අතට center කිරීම */
+    margin-top: 20px; /* header සහ video අතර හිඩස */
+}
+.listcat {
+    background: #fcfcfc;
+    padding: 6px;
+    border: 1px #eee solid;
+    font-weight: bold;
+    color: #325d81;
+    margin: 3px;
+    transition: 0.4s;
+}
+.main{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 6px 8px;
+    margin-bottom: -1px;
+    background-color: #FCFCFC;
+    border: 1px solid #ddd;
+}
+.titel1 {
+    background: #dedede;
+    padding: 4px;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Button කොටස */
+.button-section {
+    display: flex;
+    justify-content: center; /* බටන් එක center කිරීම */
+    margin-top: 20px; /* Button එක සහ විඩියෝ අතර හිඩස */
+}
+
+.download-button {
+    background-color: #008CBA; /* Button වර්ණ */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #005f73; /* Hover කිරීමේදී Button වර්ණ */
+}
