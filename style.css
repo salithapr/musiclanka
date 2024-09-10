@@ -8,7 +8,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    display: block;
 }
 
 header {
@@ -43,9 +42,21 @@ nav ul li a:hover {
     color: #06BBCC;
 }
 
-main {
+.main {
     padding: 20px;
     text-align: center;
+}
+/* Centering the container */
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Ensures the container stays in the center */
+    max-width: 90%; /* Adjusts the width to make it responsive */
+}
+
+.table-wrapper {
+    text-align: center; /* Centers the text inside the table */
+    width: 100%; /* Ensures full use of available width */
 }
 
 footer {
@@ -53,7 +64,7 @@ footer {
     padding: 20px;
     background-color: #282828;
     color: white;
-    position: fixed;
+    position: block;
     width: 100%;
     bottom: 0;
 }
@@ -128,4 +139,24 @@ body {
 
 .download-button:hover {
     background-color: #005f73; /* Hover කිරීමේදී Button වර්ණ */
+}
+footer {
+    padding: 0;
+    margin: 0;
+    position: relative; /* Ensure it stays within the flow of the document */
+    background-color: #282828; /* Keep the background color consistent */
+    color: white;
+    text-align: center;
+}
+
+/* Additional container adjustment */
+.footer-container {
+    padding-bottom: 0; /* Remove bottom padding */
+    margin-bottom: 0;  /* Remove bottom margin */
+}
+
+/* Ensure the whole page is reset */
+body {
+    margin: 0;
+    padding: 0;
 }
